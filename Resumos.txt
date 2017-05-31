@@ -1,0 +1,26 @@
+querySelector = seleciona um elemento da página trazendo a informação que ela contém (exemplo h1, p, class="", name="", etc...)
+Quando desejamos pegar apenas parte do HTML, devemos utilizar a função querySelector(). A função querySelector faz a busca através de seletores CSS para trazer o HTML que você está interessado
+
+textContent = mostra o conteúdo texto de uma variável ou elemento de página, também usado pra inserir novo conteúdo de texto numa var (exemplo:    titulo.textContent = "h1")
+
+querySelector só passa uma elemento, não aceita mais de um vai passar somente o primeiro. Para que ele passe vários no loop é necessário adicionar o "All" ao final com camel case, ficando assim:
+"querySelectorAll"
+
+
+pacientes.style.backgroundColor = "white"   - adiciona cor de fundo branca usando JS
+paragrafo.style.color = "blue"; - adiciona cor de texto azul usando JS
+paragrafo.style.color = "rgb(0,0,255)"; - mesmo do de cima com rgb
+
+
+
+"classList" nos retorna todas as classes de um objeto JS (podemos listar todas as classes pra estilização por exemplo).
+Quando selecionamos um elemento com as funções de querySelector, elas nos devolvem um objetos que tem algumas propriedades especiais, que falam sobre as características do HTML selecionado. Uma dessas propriedades é a .classList, que como o nome indica nos mostras classes que aquele HTML tem.
+
+
+
+addEventListener - Essa função faz exatamente o que o seu nome diz, ela fica escutando algum evento específico, evento esse que deve ser passado por parâmetro para a função. 
+
+
+
+https://cursos.alura.com.br/course/javascript-programando-na-linguagem-web/task/23608
+
